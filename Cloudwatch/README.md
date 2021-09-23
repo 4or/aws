@@ -81,7 +81,7 @@
 }
 ```
 <p align="center"> 
-  <img src="images/poli2.png">
+  <img src="images/poli2.PNG">
 </p> 
 
 | Save the policy by name ( cloudi )
@@ -93,7 +93,7 @@
 <br />
 <h3 align="center">Go to IAM, then Role and select AWS service then Choose EC2</h3>
 <p align="center"> 
-  <img src="images/role1.png" >
+  <img src="images/role1.PNG" >
 </p> 
 
 | Then Next
@@ -101,7 +101,7 @@
  
 <h3 align="center">In the search bar put the name of the policy we create (  cloudi ) and select it</h3>
 <p align="center"> 
-  <img src="images/role2.png" >
+  <img src="images/role2.PNG" >
 </p> 
 | Save the Role by name ( cloudiwatch )
 <br />
@@ -128,13 +128,14 @@
  
 <h3 align="center">Select the role that we create and then save</h3>
 <p align="center"> 
-  <img src="images/ens3.png" >
+  <img src="images/ens3.PNG" >
 </p> 
 <br />
 
 
 ```doc 
-By that your EC2 instance will be authorized to push logs into CloudWatch, Or you can create role with CloudWatchFullAccess permission and attach it to EC2, here you can use one of them
+By that your EC2 instance will be authorized to push logs into CloudWatch,
+Or you can create role with CloudWatchFullAccess permission and attach it to EC2, here you can use one of them
 ```
 
 <br />
